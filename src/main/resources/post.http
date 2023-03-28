@@ -1,0 +1,9 @@
+POST http://localhost:8080/user/create
+Content-Type: application/json
+
+{
+ "description": "new",
+  "price": 500,
+  "title": "sock",
+  "status": "ACTIVE"
+}
